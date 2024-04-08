@@ -1,12 +1,194 @@
+.wrap-containerCongelados{
+    border: 5px solid rgb(6, 238, 255);
+    margin-top: 40px;   
+    width: 60%;
+    box-shadow: 0px 0px 5px 5px ;
+    background-color: #f4f8f8;
+    padding: 20px;  
+}
+.wrap-containerPescados{
+    border: 5px solid rgb(24, 60, 241);
+    margin-top: 40px;   
+    width: 60%;
+    box-shadow: 0px 0px 5px 5px ;
+    background-color: #f4f8f8;
+    padding: 20px;  
+}
+.wrap-containerLacteos{
+    border: 5px solid rgb(245, 182, 8);
+    margin-top: 40px;   
+    width: 60%;
+    box-shadow: 0px 0px 5px 5px ;
+    background-color: #f4f8f8;
+    padding: 20px;  
+}
+.wrap-containerCarnes{
+    border: 5px solid rgb(177, 5, 34);
+    margin-top: 40px;   
+    width: 60%;
+    box-shadow: 0px 0px 5px 5px ;
+    background-color: #f4f8f8;
+    padding: 20px;  
+}
+.wrap-containerVerduras{
+    border: 5px solid rgb(57, 202, 83);
+    margin-top: 40px;   
+    width: 60%;
+    box-shadow: 0px 0px 5px 5px ;
+    background-color: #f4f8f8;
+    padding: 20px;  
+}
+.wrap-containerNoPerecederos{
+    border: 5px solid rgb(130, 62, 239);
+    margin-top: 40px;   
+    width: 60%;
+    box-shadow: 0px 0px 5px 5px ;
+    background-color: #f4f8f8;
+    padding: 20px;  
+}
+.tituloVerduras{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Lora", serif;
+    text-decoration: underline;   
+    color:rgb(57, 202, 83);
+}
+.tituloNoPerecederos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Lora", serif;
+    text-decoration: underline;   
+    color:rgb(130, 62, 239);
+}
+.tituloCongelados{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Lora", serif;
+    text-decoration: underline;   
+    color:rgb(19, 212, 225);
+}
+.tituloPescados{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Lora", serif;
+    text-decoration: underline;   
+    color:rgb(24, 60, 241);
+}
+.tituloCarnes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Lora", serif;
+    text-decoration: underline;   
+    color:rgb(177, 5, 34);
+}
+.tituloLacteos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Lora", serif;
+    text-decoration: underline;   
+    color:rgb(245, 182, 8);
+}
 
-/* 
+.articulo{    
+    font-family: "Lora", serif;
+    text-align: center;
+    background-color: aliceblue;
+    border: none;   
+    margin-bottom: 10px;    
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 5px;
+}
+.cantidad{    
+    font-family: "Lora", serif;
+    text-align: center;
+    background-color: aliceblue;
+    border: none;   
+    margin-bottom: 10px;    
+    border: solid 1px black;   
+    justify-content: space-around;
+    margin: auto;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.boton{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: "Lora", serif;
+    background-color: green;
+    border:none;
+    color: white;
+    
+}
+.articulo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.cantidadComprada{
+    border: 2px green solid;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-top: 5px;    
+    margin:auto;
+    border-radius: 5px; 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.articuloCaja{    
+    margin-top: 15px;      
+}
+.fichaTecnica{
+    border: 2px solid rgb(224, 98, 255);
+    margin: auto; 
+    margin-top: 20px;  
+    width: 60%;   
+    background-color: #f4f8f8;
+    padding: 20px; 
+    font-family: "Lora", serif;
+}
+.inputFormulario{
+    display: flex;
+    justify-content:center;
+    margin: auto;
+}
+.resumenOrden{
+    border: solid black 1px;
+    width: 250px;
+    margin-left: 20px;
+    font-family: "Lora", serif;
+    position: fixed;
+    bottom:30px;
+    ;
+}
+p{
+    margin: 4px;
+}
+h6{
+    margin:auto;
+    text-align: center;
+    text-decoration: underline;
+}
+.footer{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    background-color: goldenrod;
+    color: black;
+    font-family: "Lora", serif;
+}
