@@ -36,7 +36,7 @@ const Pescados = () => {
     };
 
     const handleDelete = (index) => {
-        setPescados(pescados.filter((_, currentIndex) => index !== currentIndex));
+     
         swal({
             title: "Cuidado!!!",
             text: "Vas a borrar un articulo de la lista de la compra",
@@ -46,12 +46,15 @@ const Pescados = () => {
         })
             .then((willDelete) => {
                 if (willDelete) {
+                    setPescados(pescados.filter((_, currentIndex) => index !== currentIndex));
                     swal("Tu articulo ha sido borrado!!", {
                         icon: "success",
                     });
                 } else {
                     swal("Tu articulo está a salvo!");
+                    return
                 }
+                
             });
     };
 

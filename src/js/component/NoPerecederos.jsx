@@ -35,7 +35,6 @@ const NoPerecederos = () => {
     };
    
     const handleDelete = (index) =>{
-        setNoPerecederos(noPerecederos.filter((_, currentIndex) => index !== currentIndex));
         swal({
             title: "Cuidado!!!",
             text: "Vas a borrar un articulo de la lista de la compra",
@@ -45,11 +44,14 @@ const NoPerecederos = () => {
         })
             .then((willDelete) => {
                 if (willDelete) {
+                    setNoPerecederos(noPerecederos.filter((_, currentIndex) => index !== currentIndex));
+
                     swal("Tu articulo ha sido borrado!!", {
                         icon: "success",
                     });
                 } else {
                     swal("Tu articulo está a salvo!");
+                    return
                 }
             });
     };
